@@ -1,5 +1,7 @@
 # Smald
 
+[![CMake](https://github.com/HugeBrain16/Smald/actions/workflows/cmake.yml/badge.svg?branch=master)](https://github.com/HugeBrain16/Smald/actions/workflows/cmake.yml)
+
 A library I made for learning C++.
 This one started closed source because mostly just implementation of [cmdtools](https://github.com/HugeBrain16/cmdtools) and [iniparser](https://github.com/HugeBrain16/iniparser) in C++.
 
