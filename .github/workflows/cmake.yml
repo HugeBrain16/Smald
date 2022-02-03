@@ -41,8 +41,8 @@ jobs:
       with:
         name: libsmald-x86_64-linux
         path: |
-          ${{github.workspace}}/build/src/libsmald.a
-          ${{github.workspace}}/build/apps/demo
+          ${{github.workspace}}/build-linux/src/libsmald.a
+          ${{github.workspace}}/build-linux/apps/demo
           ${{github.workspace}}/include
 
   build-windows:
