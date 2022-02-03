@@ -52,7 +52,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Configure CMake
         run: |
-          cmake -B ${{github.workspace}}/build-windows-x86 -G "Visual Studio 16 2019" -A Win32 -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
+          cmake -B ${{github.workspace}}/build-windows-win32 -G "Visual Studio 16 2019" -A Win32 -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
           cmake -B ${{github.workspace}}/build-windows-x64 -G "Visual Studio 16 2019" -A x64 -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
           cmake -B ${{github.workspace}}/build-windows-arm -G "Visual Studio 16 2019" -A ARM -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
           cmake -B ${{github.workspace}}/build-windows-arm64 -G "Visual Studio 16 2019" -A ARM64 -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
